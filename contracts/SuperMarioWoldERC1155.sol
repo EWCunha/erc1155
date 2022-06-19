@@ -19,7 +19,7 @@ contract SuperMarioWorldERC1155 is ERC1155 {
     }
 
     function mint(uint256 _amount, string memory _uri) public {
-        require(msg.sender == address(0), "Mint to the zero address");
+        require(msg.sender != address(0), "Mint to the zero address");
         tokenCount++;
         balances[tokenCount][msg.sender] += _amount;
         tokenURIs[tokenCount] = _uri;
