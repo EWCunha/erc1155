@@ -1,15 +1,3 @@
-# Basic Sample Hardhat Project
+# Super Mario World NFTs
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+This is a NFT smart contract using ERC1155 token standard developed by myself and deployed on Polygon Mumbai testnet. With this standard, it is possible to define how many copies of an NFT to be minted.
